@@ -1,0 +1,22 @@
+/* Maquetado HTML
+css Grid - Flexbox
+Font Awesome (biblioteca iconos)
+
+
+@media screen and (min-width: 769px) and (max-width: 1080px)
+@media screen and (min-width: 481px) and (max-width: 768px)
+@media screen and (min-width: 320px) and (max-width: 480px)
+
+FIGMA
+https://www.figma.com/design/rHmn7WjEqaHHsW2Rxp7ItO/MNTN---Landing-Page-(Community)?node-id=1-2&node-type=frame&t=1dBPIYVi53pXPhX1-0
+
+FONT
+Chronicle Display Semibold
+Gilroy Bold
+Gilroy Extra Bold
+Gilroy Medium
+
+Paleta de COLOR
+#0B1D26
+#ffffff
+#fbd784 */

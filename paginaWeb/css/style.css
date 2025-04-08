@@ -1,0 +1,719 @@
+/* Estilos generales */
+
+* {
+  margin: 0;
+}
+body {
+  background-color: #222021;
+}
+
+/* Font family */
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Bold.ttf") format(‘truetype’);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "KyivType";
+  src: url("../fonts/KyivTypeSansMedium-.otf") format(‘truetype’);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Regular.ttf") format(‘truetype’);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Inter-Medium";
+  src: url("../fonts/Inter-Medium.ttf") format(‘truetype’);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("../fonts/Inter-Bold.ttf") format(‘truetype’);
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+/*  Inicio HEADER INDEX*/
+
+.backwood {
+  background-image: url("../img/imag.jpg");
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+header {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+
+.header_index {
+  margin-top: 22px;
+}
+
+header img {
+  margin-left: 90px;
+}
+
+a {
+  color: inherit;
+  font-family: "Montserrat";
+  font-size: 18px;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 800px;
+}
+
+li {
+  padding: 0.3rem 0.7rem;
+}
+
+li:hover {
+  color: #a3b8d7;
+}
+
+
+/* Línea divisoria */
+
+.linea_vertical {
+  width: 1px; /* Ancho de la línea */
+  height: 447px; /* Altura de la línea */
+  background-color: #f5f5f5; /* Color de la línea */
+}
+
+/* Inicio MAIN PRINCIPAL */
+.main_principal {
+  width: 100vw;
+  display: flex;
+  justify-content: end;
+  margin-top: 45px;
+}
+
+.main_principal_contenedor {
+  background-color: #1e0c06;
+  box-shadow: 0px -6px 52px 0px rgba(245, 245, 245, 0.17); /* Agregar sombra */
+  width: 1185px;
+  height: 620px;
+  border-top-left-radius: 43px;
+  border-bottom-left-radius: 43px;
+  display: flex;
+  align-items: center;
+}
+
+.main_principal_titulos {
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main_principal_titulos h1 {
+  font-family: "KyivType";
+  font-size: 80px;
+  color: #f5f5f5;
+  width: 544px;
+  height: 281px;
+}
+
+.main_principal_titulos h2 {
+  font-family: "Inter";
+  color: #ffdbbb;
+  font-size: 25px;
+  width: 292px;
+  height: 68px;
+}
+
+.main_principal_btn {
+  background-color: #728bad;
+  font-family: "Inter-Bold";
+  color: #f5f5f5;
+  font-size: 25px;
+  text-align: center;
+  width: 197px;
+  height: 51px;
+  border: none;
+  border-radius: 42px;
+}
+
+.main_secundario {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  width: 35%;
+  margin-left: 35px;
+}
+
+.main_secundario_img1 {
+  justify-self: end;
+}
+
+.main_secundario_img2 {
+  justify-self: start;
+}
+
+.main_secundario img {
+  border-radius: 42px;
+  width: 180px;
+  height: 180px;
+}
+
+/* Inicio THE WOOD WE WORK WITH */
+
+.wood_work_contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15%;
+}
+
+.wood_work_titulo {
+  display: flex;
+  justify-content: flex-start;
+  width: 90%;
+}
+
+.wood_work_titulo p {
+  font-family: "KyivType";
+  font-size: 80px;
+  color: #f5f5f5;
+  width: 780px;
+  line-height: 132.9%;
+  text-align: left;
+  margin: 40px;
+}
+.wood_work_info {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  gap: 30px;
+  margin-top: 25px;
+}
+
+.wood_work_parrafo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wood_work_parrafo img {
+  width: 205px;
+  height: 205px;
+}
+
+.wood_work_textos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wood_work_parrafo h3 {
+  font-family: "Inter-Bold";
+  font-size: 30px;
+  color: #f5f5f5;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.wood_work_parrafo p {
+  font-family: "Inter-Medium";
+  color: #f5f5f5;
+  font-size: 30px;
+  margin: 0;
+  justify-content: flex-start;
+}
+
+.wood_work_textos i {
+  color: #ffc099;
+  margin-right: 20px;
+}
+
+/* Inicio OUR WORK */
+
+.our_work_contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our_work_titulo {
+  display: flex;
+  justify-content: flex-start;
+  width: 90%;
+}
+.our_work_titulo p {
+  font-family: "KyivType";
+  font-size: 90px;
+  color: #f5f5f5;
+  width: 532px;
+  height: 120px;
+  text-align: center;
+  margin-top: 10%;
+  justify-content: start;
+}
+
+.our_work_contenedor img {
+  width: 90%;
+  height: 600px;
+  justify-content: center;
+}
+
+/* Inicio ADVANTAGES */
+
+.advantages_contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.advantages_titulo {
+  display: flex;
+  justify-content: flex-start;
+  width: 90%;
+}
+.advantages_titulo p {
+  font-family: "KyivType";
+  font-size: 90px;
+  color: #f5f5f5;
+  width: 1040px;
+  margin: 10% 0 5% 0;
+}
+
+.advantages_contenido {
+  display: flex;
+  width: 90%;
+  gap: 50px;
+  justify-content: initial;
+}
+
+.advantages_contenido_texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 37%;
+}
+.advantages_contenido_texto p {
+  font-family: "Inter-Medium";
+  color: #f5f5f5;
+  font-size: 30px;
+}
+
+.advantage_contenido_btn {
+  background-color: #728bad;
+  font-family: "Inter-Bold";
+  color: #f5f5f5;
+  font-size: 30px;
+  text-align: center;
+  width: 472px;
+  height: 58px;
+  border: none;
+  border-radius: 42px;
+  margin-top: 30px;
+}
+
+/* Inicio ABOUT US */
+
+.about_us_contenedor {
+  display: flex;
+  background-color: #1e0c06;
+  box-shadow: 0px -6px 52px 0px rgba(245, 245, 245, 0.17); /* Agregar sombra */
+  width: 1185px;
+  height: 625px;
+  border-top-right-radius: 43px;
+  border-bottom-right-radius: 43px;
+  margin-top: 140px;
+}
+
+.about_us_principal {
+  width: 62%;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+}
+.about_us_titulo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about_us_titulo p {
+  font-family: "KyivType";
+  font-size: 90px;
+  color: #f5f5f5;
+  width: 501px;
+  height: 120px;
+}
+
+.about_us_contenido {
+  font-family: "Inter-Medium";
+  color: #f5f5f5;
+  font-size: 30px;
+  width: 75%;
+}
+
+.about_us_imagenes {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  position: relative;
+  width: 50%;
+  height: 80vh;
+}
+.about_us_imagenes img:nth-child(2) {
+  grid-column: 1/4;
+  grid-row: 3;
+  z-index: 2;
+}
+
+.about_us_imagenes img:first-child {
+  grid-column: 3/4;
+  grid-row: 2;
+  z-index: 1;
+}
+
+.about_us_imagenes img:last-child {
+  grid-column: 3/4;
+  grid-row: 5;
+  z-index: 2;
+}
+
+.about_us_imagenes img {
+  border-radius: 42px;
+  position: absolute;
+}
+
+/* Inicio ANY QUESTIONS */
+
+.questions_contenedor {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+}
+
+.questions_titulo {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+}
+
+.questions_titulo p {
+  font-family: "KyivType";
+  font-size: 90px;
+  color: #f5f5f5;
+  margin-top: 196px;
+}
+
+.questions_contenido {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+  margin-left: 40px;
+  margin-bottom: 100px;
+}
+.questions_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.questions_form {
+  font-family: "Inter";
+  color: #f5f5f5;
+  font-size: 30px;
+}
+
+.questions_form_contenido {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 552px;
+}
+
+.questions_form_contenido input[type="text"],
+.questions_form_contenido textarea {
+  border-radius: 42px;
+  border: 3px solid #728bad;
+  background-color: transparent;
+  padding: 15px;
+  font-size: 20px;
+  color: #f5f5f5;
+  margin-bottom: 20px;
+  width: 90%;
+}
+.questions_btn {
+  background-color: #728bad;
+  font-family: "Inter-Bold";
+  color: #f5f5f5;
+  font-size: 30px;
+  text-align: center;
+  width: 225px;
+  height: 58px;
+  border: none;
+  border-radius: 42px;
+}
+
+.questions_parrafo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  position: relative;
+}
+
+.questions_parrafo {
+  font-family: "Inter-Medium";
+  color: #f5f5f5;
+  font-size: 30px;
+  text-align: end;
+  width: 535px;
+}
+
+.questions_imagen {
+  width: 540px;
+  height: 550px;
+  justify-content: center;
+  align-items: center;
+  position: absolute; /* Establecer posición absoluta para posicionar la imagen */
+  bottom: -274px; /* Ajustar la distancia desde abajo del footer */
+  left: 50%; /* Ajustar la posición horizontalmente */
+  transform: translateX(-50%);
+  overflow: hidden;
+  z-index: -1; /* Colocar la imagen detrás del texto */
+}
+.questions_imagen img {
+  width: 100%; /* Asegurar que la imagen llene el contenedor */
+}
+
+/* Inicio FOOTER  */
+.footer_contenedor {
+  display: flex;
+  height: 220px;
+  justify-content: center;
+  align-items: center;
+  background-color: #222021;
+  box-shadow: 0px -6px 52px 0px rgba(245, 245, 245, 0.17); /* Agregar sombra */
+  gap: 100px;
+}
+
+.footer_contenido {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  position: relative;
+  gap: 20px;
+}
+
+footer p {
+  font-family: "Inter-Medium";
+  color: #f5f5f5;
+  font-size: 20px;
+}
+
+.footer_icons {
+  display: flex;
+  width: 355px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* INICIO ESTILOS GALLERY */
+.backheader {
+  background-color: #1e0c06;
+  box-shadow: 0px -6px 52px 0px rgba(245, 245, 245, 0.17); /* Agregar sombra */
+  height: 130px;
+  border-bottom-left-radius: 42px;
+  border-bottom-right-radius: 42px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /*Asegura que el footer quede por delante */
+}
+
+/* GALLERY our_work*/
+
+.gallery_our_work_contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.gallery_our_work_titulo {
+  display: flex;
+  justify-content: flex-start;
+  width: 78%;
+}
+.gallery_our_work_titulo p {
+  font-family: "KyivType";
+  font-size: 90px;
+  color: #f5f5f5;
+  width: 532px;
+  height: 120px;
+  text-align: center;
+  margin-top: 10%;
+  justify-content: start;
+}
+
+.gallery_our_work_contenedor img {
+  width: 90%;
+  height: 600px;
+  justify-content: center;
+}
+
+/* GALLERY The wood we work with*/
+
+.gallery_wood_work_parrafo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery_wood_work_parrafo img {
+  width: 205px;
+  height: 205px;
+  border-radius: 42px;
+}
+
+.gallery_wood_work_textos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gallery_wood_work_parrafo h3 {
+  font-family: "Inter-Bold";
+  font-size: 30px;
+  color: #f5f5f5;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.gallery_wood_work_parrafo p {
+  font-family: "Inter-Medium";
+  color: #f5f5f5;
+  font-size: 30px;
+  margin: 0;
+  justify-content: flex-start;
+}
+
+.gallery_wood_work_textos i {
+  color: #ffc099;
+  margin-right: 20px;
+}
+
+/* INICIO PRICE LIST */
+.price_list_contenedor {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-top: 100px;
+}
+
+.price_list_titulo {
+  display: flex;
+ flex-direction: column;
+ align-items: start;
+  width: 78%;
+}
+.price_list_titulo p {
+  font-family: "KyivType";
+  font-size: 90px;
+  color: #f5f5f5;
+  width: 532px;
+  height: 120px;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.price_list_img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  margin-top: 20px;;
+}
+
+/* INICIO CONTACT */
+
+.contact_contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+.contact_titulo {
+  /* display: flex;
+  justify-content: flex-start; */
+  width: 90%;
+}
+.contact_titulo p {
+  font-family: "KyivType";
+  font-size: 90px;
+  color: #f5f5f5;
+  width: 532px;
+  height: 120px;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.contact_contenido {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.contact_contenido p {
+  font-family: "Inter-Medium";
+  color: #f5f5f5;
+  font-size: 30px;
+}
+
+.contact_parrafo {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  gap: 50px;
+  margin-left: 30px;
+}
+.contact_icons {
+  display: flex;
+  align-items: center;
+}
+
+.contact_mapa {
+width: 50%;
+border-radius: 42px;
+}
+
+
+
+

@@ -1,0 +1,14 @@
+
+* Maquetado HTML + CSS  (movile) *
+
+Puerto: 5500.
+
+Proyecto realizado a partir de un diseño obtenido de Figma.
+
+Lenguajes y herramientas: HTML, CSS (Flexbox, Grid), Font Awesome.
+
+Maquetado simple para movile, header, main, footer.
+
+Este proyecto requiere animaciones y ejecución de botones.
+Este proyecto no cuenta con estructura JS.
+
